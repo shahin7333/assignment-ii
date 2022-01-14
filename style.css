@@ -1,0 +1,25 @@
+body
+{
+    font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.top
+{
+    margin-left: 40px;
+    margin-top: 0;
+}
+.top-side
+{
+display: flex;
+margin-top: 30px;
+}
+.top-link
+{
+    margin-left: 50%;
+}
+.top-link a, i
+{
+    text-decoration: none;
+    margin-left: 15px;
+    color: black;
+}
