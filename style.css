@@ -260,3 +260,30 @@ margin-top: 30px;
     grid-template-columns: repeat(1, 1fr);
 }
 }
+
+/* for tablet */
+@media only screen and (min-width:768px) and (max-width:1023px) {
+.top{
+    text-align: canter;
+}
+.top-link{
+    display: none;
+}
+.heading-influencer{
+    grid-template-columns: repeat(1, 1fr);
+}
+.preebook-button{
+  
+    margin-bottom: 30px;
+}
+.list-allbum{
+grid-template-columns: repeat(2, 1fr);
+}
+#seemore{
+margin-bottom: 30px;
+}
+.self-content{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+}
+}
