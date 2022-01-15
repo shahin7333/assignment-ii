@@ -5,7 +5,7 @@ font-family: 'Poppins', sans-serif;
 }
 .top
 {
-    margin-left: 40px;
+    margin-left: 120px;
     margin-top: 0;
 }
 .top-side
@@ -15,11 +15,130 @@ margin-top: 30px;
 }
 .top-link
 {
-    margin-left: 50%;
+    margin-left: 37%;
 }
 .top-link a, i
 {
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 25px;
     color: black;
+    font-size: 16px;
+}
+#market{
+    color: black;
+}
+#search
+{
+    color: black;
+}
+.heading-influencer
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10%;
+    margin-top: 80px;
+    
+}
+.h-one
+{
+    margin-left: 120px;
+    margin-top: 74px;
+    
+}
+.h-one p
+{
+    font-size: 18px;
+    margin-left: 0px;
+
+}
+.main-camera img
+{
+    width: 440px;
+    height: 414px;
+    margin-left: 25px;
+}
+.preebook-button
+{
+    width: 196px;
+   
+    height: 44px;
+    background-color: #cc2864;
+    border-radius: 41px;
+    border: 0px ;
+    margin-top: 16px;
+  
+}
+.preebook-button i
+{
+    color: white;
+}
+
+/* popular-collection */
+.popular-collection header, h2
+{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 28px;
+}
+.allbum-info, img
+{
+    width: 300px;
+    height: 256px;
+    margin-left: 14px;
+}
+.allbum h2
+{
+    font-size: 28px;
+ 
+}
+.allbum h3
+{
+    margin-left: 26px;
+}
+.allbum p
+{
+    font-size: 24px;
+    margin-left: 22px;
+}
+.star span, i
+{
+    color:rgb(255, 196, 0); 
+    margin-left: 14px;
+}
+.star
+{
+    margin-left: 0px;
+}
+
+.rating-value{
+    color: rgb(56, 56, 56);
+    margin-left: 8px;
+    margin-top: 0px;
+}
+.text-info
+{
+    color:  rgb(56, 56, 56);
+    text-align: left;
+    margin-left: 26px;
+    font-size: 12px;
+}
+.list-allbum
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 35px;
+    margin-right: 80px;
+    margin-left: 80px;
+    grid-row-gap: 35px;
+    align-items: center;
+  
+}
+.allbum
+{
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    margin-right: 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: -10px -15px 25px 15px rgb(233, 232, 232);
 }
