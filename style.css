@@ -3,6 +3,9 @@ body
     font-family: 'Lato', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
+main{
+    width: 100%;
+}
 .top
 {
     margin-left: 120px;
@@ -66,6 +69,7 @@ margin-top: 30px;
     border-radius: 41px;
     border: 0px ;
     margin-top: 16px;
+    color: white;
   
 }
 .preebook-button i
@@ -130,6 +134,7 @@ margin-top: 30px;
     margin-right: 80px;
     margin-left: 80px;
     grid-row-gap: 35px;
+    margin-top: 60px;
 }
 .allbum
 {
@@ -154,6 +159,10 @@ margin-top: 30px;
     text-align: right;
     margin-right: 78px;
     margin-top: 40px;
+}
+.see-more footer
+{
+    text-align: right;
 }
 /* self content */
 .self-content
@@ -219,4 +228,35 @@ margin-top: 30px;
 .white-text 
 {
     color: white;
+}
+
+
+
+/* for media quaries */
+/* for mobile */
+
+@media only screen and (max-width:688px) {
+    .top{
+        text-align: canter;
+    }
+    .top-link{
+        display: none;
+    }
+    .heading-influencer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .preebook-button{
+      
+        margin-bottom: 30px;
+    }
+.list-allbum{
+    grid-template-columns: repeat(1, 1fr);
+}
+#seemore{
+    margin-bottom: 30px;
+}
+.self-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 }
